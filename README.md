@@ -22,6 +22,9 @@ Amiga PSU cap list : https://blog.worldofjani.com/?p=5695
 Meanwell RT50B upgrade : https://www.retro32.com/amiga-resources/030720201179-staff-project-amiga-meanwell-psu-upgrade-rt-50b-rt-65b
 
 L296 datasheet : https://www.st.com/resource/en/datasheet/l296.pdf
+KIKAD Symbols : https://componentsearchengine.com/part-view/L296P/STMicroelectronics
 
 L4960 datasheet : https://www.mouser.co.uk/datasheet/2/389/SGSTS51597_1-2563801.pdf
+KIKAD Symbols : https://componentsearchengine.com/part-view/L4960/STMicroelectronics
+
 
