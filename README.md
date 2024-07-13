@@ -6,7 +6,7 @@ Amiga PSU (Heavy brick) 312503-02 : Reverse engineered schematic / Ki-Kad
 Ki-Kad v8 was used to create the schematic
 
 ## images
-The images folder contains front and back PCB images, and were used as the basis to create the schematic
+The images folder contains front and back PCB images.  These were used to create the schematic.
 
 ![front](images/components.jpg)
 
