@@ -5173,6 +5173,17 @@
 		)
 		(uuid "ff025975-f9c2-4e83-b275-d8e1755d6c48")
 	)
+	(text "Output Wire Colours:\nBrown : +12V\nRed : 5V\nBlack : 0V\nGrey : -12V\nYellow : Earth/Shield"
+		(exclude_from_sim no)
+		(at 239.776 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "167e633a-5799-4b87-81d8-598c4300bee5")
+	)
 	(text "Note : Ov (GNDD) is taken from the \ntransformer secondary center taps\n(missing from the transformer symbol)."
 		(exclude_from_sim no)
 		(at 69.088 56.896 0)
