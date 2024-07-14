@@ -7950,7 +7950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C137"
+		(property "Value" "TYN058 C137"
 			(at 261.62 105.4099 0)
 			(effects
 				(font
@@ -9382,7 +9382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2200uF 40V"
+		(property "Value" "330uF 40V"
 			(at 119.38 165.1 0)
 			(effects
 				(font
