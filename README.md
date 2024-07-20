@@ -1,9 +1,9 @@
 # Amiga_PSU_312503-02
-Amiga PSU (Heavy brick) 312503-02 : Reverse engineered schematic / Ki-Kad
+Amiga PSU (Heavy brick) 312503-02 : Reverse engineered schematic / Ki-Cad
 
 ## Note : This is a 'rough' sketch, reverse engineered from the PCB.  The schematic has not been validated, and may not be entirely correct.   It also appears there are multiple variants of this PSU with the same reference (312503-02).
 
-Ki-Kad v8 was used to create the schematic
+Ki-Cad v8 was used to create the schematic
 
 ## images
 The images folder contains front and back PCB images.  These were used to create the schematic.
@@ -27,6 +27,6 @@ KIKAD Symbols : https://componentsearchengine.com/part-view/L296P/STMicroelectro
 
 L4960 datasheet : https://www.mouser.co.uk/datasheet/2/389/SGSTS51597_1-2563801.pdf
 
-KIKAD Symbols : https://componentsearchengine.com/part-view/L4960/STMicroelectronics
+KICAD Symbols : https://componentsearchengine.com/part-view/L4960/STMicroelectronics
 
 
