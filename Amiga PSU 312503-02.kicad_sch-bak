@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "Amiga PSU 312503-02")
-		(rev "1.1")
 		(comment 1 "Note, this schematic has not been validated.")
 		(comment 2 "Reverse engineered schematic of the Amiga PSU (or at least 1 of the variants)")
 	)
@@ -2275,16 +2274,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TR1"
-				(at 0 11.43 0)
+			(property "Reference" "TR"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "~"
-				(at 0 10.16 0)
+			(property "Value" "TEZ2.0-D-2"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2624,42 +2623,6 @@
 				)
 			)
 			(symbol "TEZ2.0-D-2_1_1"
-				(pin passive line
-					(at 5.08 -6.35 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 3.81 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 2.54)
@@ -3603,12 +3566,6 @@
 		(uuid "9a687457-5ff2-46ad-8cd6-b4f7d797afaa")
 	)
 	(junction
-		(at 88.9 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b866f5b-9b0a-45c1-a878-57892b45f9b9")
-	)
-	(junction
 		(at 175.26 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3888,16 +3845,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 85.09) (xy 88.9 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f8bf44b-22bf-4bf1-bc1e-0ee60ad03b56")
-	)
-	(wire
-		(pts
 			(xy 74.93 93.98) (xy 74.93 109.22)
 		)
 		(stroke
@@ -4068,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 57.15) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f9c75a-9ab9-4aca-93a4-3a2ae6d1ecd7")
+	)
+	(wire
+		(pts
 			(xy 161.29 138.43) (xy 163.83 138.43)
 		)
 		(stroke
@@ -4125,16 +4082,6 @@
 			(type default)
 		)
 		(uuid "3e77ea90-e496-44aa-995c-d614b2bce1c8")
-	)
-	(wire
-		(pts
-			(xy 85.09 95.25) (xy 88.9 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40676525-3a85-47e1-87a2-ade94d57ff65")
 	)
 	(wire
 		(pts
@@ -4258,16 +4205,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 99.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58e8f8c7-b5f8-46d8-85ac-a6aa8c31aa94")
-	)
-	(wire
-		(pts
 			(xy 38.1 106.68) (xy 38.1 109.22)
 		)
 		(stroke
@@ -4305,16 +4242,6 @@
 			(type default)
 		)
 		(uuid "61d24f7d-8aa5-47e9-90fa-371b2f869b45")
-	)
-	(wire
-		(pts
-			(xy 88.9 85.09) (xy 88.9 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d5514f-16a7-4880-8811-51bf1fed4cc5")
 	)
 	(wire
 		(pts
@@ -4415,16 +4342,6 @@
 			(type default)
 		)
 		(uuid "73ea94f3-174b-4a86-855e-a898bd7db4fa")
-	)
-	(wire
-		(pts
-			(xy 88.9 95.25) (xy 88.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "742d9dcd-23b6-4beb-b26e-1e2d994fcc15")
 	)
 	(wire
 		(pts
@@ -5267,6 +5184,16 @@
 		)
 		(uuid "167e633a-5799-4b87-81d8-598c4300bee5")
 	)
+	(text "Note : Ov (GNDD) is taken from the \ntransformer secondary center taps\n(missing from the transformer symbol)."
+		(exclude_from_sim no)
+		(at 69.088 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "805fd6de-e705-40eb-830b-3b9a52ced32a")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 110.49 29.21 0)
@@ -5286,7 +5213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "33nF"
 			(at 114.3 30.4799 0)
 			(effects
 				(font
@@ -5479,12 +5406,6 @@
 		(pin "9"
 			(uuid "6c2350d4-19bf-4df3-8f15-fb084b11499f")
 		)
-		(pin ""
-			(uuid "59fb589e-fbc1-4f4a-be09-d54633de1d0d")
-		)
-		(pin ""
-			(uuid "192679cf-9c47-43f7-9735-8be4a7f2fe6d")
-		)
 		(instances
 			(project "Amiga PSU 312503-02"
 				(path "/54fbe9e7-86ea-4cdb-bd45-79f946ddc3e0"
@@ -5659,7 +5580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34bb4588-bc58-4358-8ca7-ba03922c3996")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 172.72 38.0999 0)
 			(effects
 				(font
@@ -5716,7 +5637,7 @@
 		(instances
 			(project "Amiga PSU 312503-02"
 				(path "/54fbe9e7-86ea-4cdb-bd45-79f946ddc3e0"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6215,7 +6136,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 99.06 99.06 0)
+		(at 90.17 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6224,7 +6145,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bdbe2cb-5781-48a6-a55c-0f72663339ad")
 		(property "Reference" "#PWR019"
-			(at 99.06 105.41 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +6154,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 99.06 102.87 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 99.06 0)
+			(at 90.17 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 99.06 0)
+			(at 90.17 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 99.06 99.06 0)
+			(at 90.17 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,6 +6660,73 @@
 			(project "Amiga PSU 312503-02"
 				(path "/54fbe9e7-86ea-4cdb-bd45-79f946ddc3e0"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 90.17 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "619a4b52-8105-436b-b47d-b5a29428c168")
+		(property "Reference" "#PWR015"
+			(at 90.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0V"
+			(at 92.71 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49a5e645-b683-4d8f-bb20-d9781d21adfd")
+		)
+		(instances
+			(project "Amiga PSU 312503-02"
+				(path "/54fbe9e7-86ea-4cdb-bd45-79f946ddc3e0"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

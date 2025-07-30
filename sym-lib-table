@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Symbol_Library")(type "KiCad")(uri "${KIPRJMOD}/Symbol_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Amiga_Psu_Library")(type "KiCad")(uri "${KIPRJMOD}/Amiga_Psu_Library.kicad_sym")(options "")(descr ""))
+)
