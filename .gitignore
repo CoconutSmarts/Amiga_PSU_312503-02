@@ -3,6 +3,7 @@
 *.tmp
 *.backup
 *.sch-bak
+*.kicad_sch-bak
 *.pcb-bak
 *.net
 *.xml
